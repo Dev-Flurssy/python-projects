@@ -1,0 +1,16 @@
+# creating and working with tuples working with tuples
+#Note tuples are immutable unlike lists which are mutable
+Mytuple = ("red", "green", "blue", "pink", "purple")
+print(Mytuple)
+print(dir(Mytuple))
+Mytuple = Mytuple.__add__(("violet",)) 
+print(Mytuple)
+Mytuple = Mytuple + ("Magenta",)
+print(Mytuple)
+print(Mytuple[5])
+print(Mytuple[5][0])
+print(Mytuple == tuple)
+print(Mytuple[5] == tuple)
+print(type(Mytuple) == tuple)
+print(isinstance(Mytuple[5], tuple))
+print(isinstance(Mytuple, tuple))

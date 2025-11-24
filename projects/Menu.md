@@ -1,4 +1,16 @@
+# 🍴 Let's Build a Lunch Menu Program
+
+This program allows users to select a lunch item and customize it with stew or sauce options.  
+It demonstrates **conditional statements**, **user input handling**, and **nested menus** in Python.
+
+---
+
+## Display the Main Menu
+
+```python
+S
 # lets Build a Lunch Menu Program
+
 print("1. Rice")
 print("2. Pasta")
 print("3. Burger")
@@ -55,3 +67,17 @@ elif MainChoice == 4:
 
 else:
     print("We don't serve that lunch item!")
+
+**  Example of the Program **
+1. Rice
+2. Pasta
+3. Burger
+4. Salad
+Choose a lunch item: 1
+1. Chicken Stew
+2. Beef Stew
+3. Vegetable Sauce
+4. Pepper Stew
+Choose a type of stew: 2
+You chose rice with beef stew.
+```
